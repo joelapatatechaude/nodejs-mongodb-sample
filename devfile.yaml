@@ -63,3 +63,11 @@ commands:
       commandLine: "npm install && node --inspect=9229 app.js"
       group:
         kind: run
+  - id: 2-guestbook
+    exec:
+      label: "Look at the guestbook collections"
+      component: mongo
+      workingDir: /
+      commandLine: "mongo -u ${MONGODB_USER} -p ${MONGODB_PASSWORD} localhost:27017/${MONGODB_DATABASE} --eval 'db.messages.find()'"
+      group:
+        kind: run
