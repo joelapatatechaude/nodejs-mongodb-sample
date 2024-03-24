@@ -1,3 +1,7 @@
+# Contribute
+- Start your devspace with:
+  - vs-code [![Contribute](https://www.eclipse.org/che/contribute.svg)](https://devspaces.apps.hub.cszevaco.com/#https://github.com/joelapatatechaude/nodejs-mongodb-sample)
+
 # NodeJS-MongoDB-Sample
 A simple NodeJS web application which communicates with MongoDB. Useful for testing Eclipse Che Node workspace.
 
